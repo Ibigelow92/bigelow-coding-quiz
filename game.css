@@ -1,0 +1,98 @@
+body {
+    color: #fff;
+}
+
+/*Styles choices A-D*/
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: linear-gradient(135deg, rgb(32, 18, 187) 0%, rgb(10, 224, 252) 100%);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+/*Styles the cursors and the effect on the options boxes*/
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(15, 95, 223, 0.5);
+    transform: scale(1.02);
+    transform: transform 100ms;
+}
+
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+/*Styles the box when you click on the correct option*/
+.correct {
+    background: linear-gradient(32deg, rgb(17, 243, 44) 0%, rgb(31, 184, 87) 100%);
+}
+
+/*Styles the box when you click on the incorrect option*/
+.incorrect {
+    background: linear-gradient(32deg, rgb(214, 27, 27) 0%, rgb(240, 12, 12) 100%);
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
+/*Heads up display*/
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#timer {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(214, 27, 27);
+    margin-top: 2rem;
+   
+    overflow: hidden;
+}
+
+#timeSpan {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+#timeDisplay {
+    font-size: 2rem;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
