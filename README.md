@@ -16,9 +16,17 @@ You will begin on a landing page with two buttons, "Play" and "High Scores". The
 
 ![quiz-homepage](https://user-images.githubusercontent.com/115512219/212800267-1fd0468f-b224-47a9-ab5e-8438d3f08897.jpg)
 
-If you press the "Play" button, this will initiate the timer and you will have forty seconds to complete the four questions. If you do not complete the entire quiz within the alotted time, your score will be zero and you will be directed to the end page. Otherwise, your score will display on the end page and you will have the option to save your score. Simply type in your initials and click "save". This will set the initials and your score in local storage. To view it, click the "See High Scores" button. 
+If you press the "Play" button, this will initiate the timer and you will have forty seconds to complete the four questions. 
+
+![quiz-quizpage](https://user-images.githubusercontent.com/115512219/212800416-12c20528-add2-4fab-8736-c00b68ab825f.jpg)
+
+If you do not complete the entire quiz within the alotted time, your score will be zero and you will be directed to the end page. Otherwise, your score will display on the end page and you will have the option to save your score. Simply type in your initials and click "save". This will set the initials and your score in local storage. To view it, click the "See High Scores" button. 
+
+![quiz-endpage](https://user-images.githubusercontent.com/115512219/212800565-aba4fe98-74e8-4f26-9aaf-68303afe2381.jpg)
 
 The High Scores page features a display of the scores, a "Go Home" button and a "Clear High Scores" button. "Go Home" takes you back to the landing page and "Clear High Scores" removes all the saved score data from local storage. 
+
+![quiz-highscorepage](https://user-images.githubusercontent.com/115512219/212800531-38c6e8ff-57c8-4fab-a58d-b5aa417498ec.jpg)
 
 ## Credits
 
