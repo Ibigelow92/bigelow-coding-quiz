@@ -46,10 +46,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
 ## Tests
 
 To test the quiz, open the application and click "Play". This will initiate the quiz. This will bring you to the quiz page. You should see a green progress bar on the lefthand side with a timer beneath it. The timer should begin counting down from 40 seconds. If you hover over one of the answer boxes, the box should scale up slightly and display a drop-shadow. If you click a correct answer, the box should flash green momentarily and your score should increase.
