@@ -4,11 +4,6 @@
 
 The purpose of this project was to become more familiar with Web APIs. Building it really helped me reinforce my understanding of how JavaScript interacts with HTML and makes it interactive. Specifically, I learned about using query selectors, creating timers and setting items in local storage, as well as removing them. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 ## Installation
 
 To have a working local version, clone the repository to your device. To simply use the application, all that is needed is to use the following URL: https://ibigelow92.github.io/bigelow-coding-quiz/
