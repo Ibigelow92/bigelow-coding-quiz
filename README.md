@@ -30,7 +30,7 @@ The High Scores page features a display of the scores, a "Go Home" button and a 
 
 ## Credits
 
-The following tutorial helped provide a conceptual foundation for the JavaScript functionality. https://www.youtube.com/watch?v=f4fB9Xg2JEY. 
+The basic functionality of this quiz, especially in regards to JavaScript, was built by following this video tutorial: https://www.youtube.com/watch?v=f4fB9Xg2JEY. Additional elements were built as needed in order to fulfill the project's requirements, namely the timer, which was done with the help of a tutor. The "Clear Highscores" button was independent work. 
 
 ## License
 
