@@ -5,6 +5,7 @@ const progressText = document.querySelector('#progressText');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 const timeDisplay = document.querySelector('#timeDisplay')
+//starts the countdown timer at 40
 let time = 40
 
 let currentQuestion = {}
@@ -58,7 +59,7 @@ startGame = () => {
     availableQuestions = [...questions]
     getNewQuestion()
     
-      
+      // Starts the countdown timer and redirects the user to the end page if it reaches zero
     setInterval(
         ()=>{
           if (time >0){
@@ -73,6 +74,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+        //adds the score to local storage 
         localStorage.setItem('mostRecentScore', score)
 
         /*Takes user to the end page */
@@ -121,6 +123,7 @@ choices.forEach(choice => {
   })
 })
 
+//changes the 
 incrementScore = num => {
   score +=num
   scoreText.innerText = score
@@ -130,5 +133,6 @@ function timing(){
   
 }
 
+//calls the start game function
 startGame()
 
